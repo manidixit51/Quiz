@@ -1,70 +1,82 @@
-# Getting Started with Create React App
+# Quiz Application 📝
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This is a simple quiz application built using React, designed to allow users to take a quiz in fullscreen mode with a time limit.
 
-## Available Scripts
+## Features ✨
 
-In the project directory, you can run:
+- Fullscreen mode requirement to start the quiz 🖥️
+- Timer functionality with a 10-minute limit for completing the quiz ⏰
+- Multiple-choice questions loaded from a JSON file 📄
+- User's progress (current question) saved in localStorage to resume quiz on refresh 🔄
 
-### `npm start`
+## Technologies Used 🚀
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- React ⚛️
+- HTML/CSS 🎨
+- JavaScript 🔧
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Setup Instructions 🛠️
 
-### `npm test`
+To run this application locally, follow these steps:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+1. **Clone the repository:**
 
-### `npm run build`
+   ```bash
+   git clone https://github.com/manidixit51/Quiz.git
+   cd quiz-app
+   ```
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+2. **Install dependencies:**
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+   ```bash
+   npm install
+   ```
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+3. **Start the development server:**
 
-### `npm run eject`
+   ```bash
+   npm start
+   ```
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+4. **Open the application:**
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+   Open your browser and go to `http://localhost:3000` to view the application.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## Deployment 🌐
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+This application is deployed and accessible at: (https://quiz-lyart-delta.vercel.app/)
 
-## Learn More
+## Usage ℹ️
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+- On the start screen, click the "Start Quiz" button to enter fullscreen mode.
+- Answer the quiz questions within the 10-minute time limit.
+- Progress is saved automatically, allowing you to resume the quiz if you refresh the page.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## Folder Structure 📁
 
-### Code Splitting
+```
+quiz-app/
+│
+├── public/
+│   └── index.html
+│   └── logo.png
+├── src/
+│   ├── components/
+│   │   ├── Quiz.js
+│   │   └── StartScreen.js
+│   ├── Images/
+│   │   └── background.jpg
+│   ├── App.css
+│   ├── App.js
+│   ├── index.css
+│   └── index.js
+├── package.json
+└── README.md
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+## Additional Notes ℹ️
 
-### Analyzing the Bundle Size
+- Customize the quiz questions by editing the JSON file located in `src/data/questions.json`.
+- Ensure your browser supports fullscreen mode (most modern browsers do).
+- Adjust CSS and styling in `App.css` and `index.css` to match your design preferences.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
