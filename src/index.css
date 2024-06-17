@@ -1,0 +1,183 @@
+/* src/index.css */
+
+/* Reset some default browser styles */
+body, html {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: Arial, sans-serif;
+  background: url('./Images/background.jpg') no-repeat center center fixed;
+  background-size: cover;
+}
+
+/* Main app container */
+.app {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: rgba(255, 255, 255, 0.8);
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Start screen styling */
+.start-screen {
+  text-align: center;
+}
+
+.start-screen h1 {
+  margin-bottom: 20px;
+  font-size: 24px;
+  color: #6a0dad; /* Purple color */
+}
+
+.start-screen button {
+  padding: 10px 20px;
+  font-size: 16px;
+  background: #9370db; /* Lavender color */
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.start-screen button:hover {
+  background: #8a63c1; /* Darker shade of lavender */
+}
+
+/* Quiz container */
+.quiz {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+
+/* Timer styling */
+.timer {
+  font-size: 24px;
+  font-weight: bold;
+  color: #800080; /* Purple color */
+  margin-bottom: 20px;
+}
+
+/* Question container styling */
+.question-container {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.question-container h2 {
+  font-size: 18px;
+  color: #4b0082; /* Darker shade of purple */
+  margin-bottom: 10px;
+}
+
+.question {
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+
+.choices {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.choice {
+  margin: 5px 0;
+  padding: 10px 20px;
+  background: #9370db; /* Lavender color */
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.choice:hover {
+  background: #8a63c1; /* Darker shade of lavender */
+}
+
+/* Fullscreen popup styling */
+.fullscreen-popup {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 20px;
+  background: rgba(255, 255, 255, 0.8);
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.fullscreen-popup p {
+  margin-bottom: 20px;
+  font-size: 18px;
+}
+
+.fullscreen-popup button {
+  padding: 10px 20px;
+  font-size: 16px;
+  background: #800080; /* Purple color */
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.fullscreen-popup button:hover {
+  background: #6a0dad; /* Darker shade of purple */
+}
+
+/* Score window styling */
+.score-window {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 20px;
+  background: rgba(255, 255, 255, 0.8);
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.score-window h2 {
+  margin-bottom: 20px;
+  font-size: 24px;
+  color: #6a0dad; /* Purple color */
+}
+
+.score-window p {
+  margin-bottom: 20px;
+  font-size: 18px;
+}
+
+.score-window-buttons {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.score-window button {
+  padding: 10px 20px;
+  font-size: 16px;
+  background: #9370db; /* Lavender color */
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin: 0 10px;
+}
+
+.score-window button:hover {
+  background: #8a63c1; /* Darker shade of lavender */
+}

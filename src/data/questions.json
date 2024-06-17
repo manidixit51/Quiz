@@ -1,0 +1,103 @@
+[
+    {
+      "question": "What is the purpose of the useState hook in React?",
+      "choices": [
+        "To fetch data from an API",
+        "To handle component state",
+        "To manage side effects",
+        "To create context"
+      ],
+      "answer": "To handle component state"
+    },
+    {
+      "question": "Which of the following is NOT a JavaScript data type?",
+      "choices": [
+        "String",
+        "Number",
+        "Boolean",
+        "Character"
+      ],
+      "answer": "Character"
+    },
+    {
+      "question": "What is the correct syntax to create a functional component in React?",
+      "choices": [
+        "class MyComponent extends React.Component { }",
+        "function MyComponent() { return <div>My Component</div>; }",
+        "const MyComponent = new React.Component()",
+        "const MyComponent = React.createClass({ })"
+      ],
+      "answer": "function MyComponent() { return <div>My Component</div>; }"
+    },
+    {
+      "question": "Which method is used to add elements to the end of an array in JavaScript?",
+      "choices": [
+        "push()",
+        "pop()",
+        "shift()",
+        "unshift()"
+      ],
+      "answer": "push()"
+    },
+    {
+      "question": "In React, what is the use of props?",
+      "choices": [
+        "To pass data between components",
+        "To manage component state",
+        "To handle side effects",
+        "To directly manipulate the DOM"
+      ],
+      "answer": "To pass data between components"
+    },
+    {
+      "question": "Which of the following is a correct way to handle events in React?",
+      "choices": [
+        "<button onclick={this.handleClick}>Click Me</button>",
+        "<button onClick={this.handleClick}>Click Me</button>",
+        "<button onClick='this.handleClick'>Click Me</button>",
+        "<button onClick={handleClick()}>Click Me</button>"
+      ],
+      "answer": "<button onClick={this.handleClick}>Click Me</button>"
+    },
+    {
+      "question": "How can you create a new array that includes all elements from an existing array in JavaScript?",
+      "choices": [
+        "Using the concat() method",
+        "Using the spread operator (...)",
+        "Using the slice() method",
+        "All of the above"
+      ],
+      "answer": "All of the above"
+    },
+    {
+      "question": "What does the 'this' keyword refer to in JavaScript?",
+      "choices": [
+        "The current function",
+        "The global object",
+        "The object that owns the method",
+        "None of the above"
+      ],
+      "answer": "The object that owns the method"
+    },
+    {
+      "question": "Which lifecycle method is invoked immediately after a component is mounted in React?",
+      "choices": [
+        "componentDidMount",
+        "componentWillMount",
+        "componentDidUpdate",
+        "componentWillUpdate"
+      ],
+      "answer": "componentDidMount"
+    },
+    {
+      "question": "What is JSX in React?",
+      "choices": [
+        "A JavaScript syntax extension",
+        "A function that returns HTML",
+        "A library for managing state",
+        "A tool for debugging React code"
+      ],
+      "answer": "A JavaScript syntax extension"
+    }
+  ]
+  
